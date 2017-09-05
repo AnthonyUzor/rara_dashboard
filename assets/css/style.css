@@ -1,0 +1,144 @@
+html, body, .wrapper{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background: #eee;
+}
+
+		/*header styling starts*/
+.navbar{
+	margin-bottom: 0;
+	border-radius: 0;
+	height: 52px;
+}
+
+.navbar-default{
+	background-color: #222;
+	border-color: #222;
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: #333;
+    background-color: #e7e7e7;
+}    
+		/*header styling ends*/
+
+		/*main styling starts*/
+main{
+	height: calc(100% - 52px);
+	position: relative;
+}		
+		/*main styling ends*/
+
+		/*aside styling starts*/
+#leftSidebar{
+	position: absolute;
+	height: 100%;
+	background: #fff;
+	width: 250px;
+	z-index: 3;
+}		
+
+#leftSidebar ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	height: 100%;
+}
+
+#leftSidebar ul li a{
+	display: block;
+	width: 100%; 
+	text-decoration: none;
+	color: #222;
+}
+
+#leftSidebar [class*='fa-']{
+	float: left;
+	padding: 10px;
+	width: 70px;
+	text-align: center;
+	line-height: 30px;
+}
+
+#leftSidebar li p{
+	padding: 10px;
+	line-height: 30px;
+}
+		/*aside styling ends*/
+
+		/*main content here*/
+#contents{
+	width: calc(100% - 250px);
+	margin-left: auto;
+	height: 100%;
+	padding: 20px;
+}		
+
+.inner-sections{
+	margin-bottom: 20px;
+}
+		/*main contents end*/
+
+
+		/*card components start*/
+.card{
+	min-height: 150px;
+	background: #fff;
+}
+
+.card .block{
+	height: 100%;
+	padding: 20px;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	color: #fff;
+}
+
+.card-bg-yellow{
+	background: #fdad2a;
+}
+
+.card-bg-blue{
+	background: #010028;
+}
+
+.card-bg-red{
+	background: #fa424a;
+}
+
+.card-bg-purple{
+	background: #ac6bec;
+}
+
+.card .card-head{
+	padding: 20px 20px 0 20px;
+}
+
+.card .card-body{
+	padding: 0 20px 20px 20px;
+}
+		/*card components end*/
+
+		/*no chart*/
+#no-chart{
+	height: 200px;
+	background: #eee;
+	]width: 100%;
+	opacity: 0.35;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}		
+
+#no-chart i{
+	font-size: 80px;
+}
